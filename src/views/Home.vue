@@ -47,7 +47,7 @@
   top: 50%; /* 垂直居中 */
   left: 20px; /* 距离左侧边距 */
   transform: translateY(-50%); /* 精确垂直居中 */
-  width:100px;
+  width:500px;
   align-items: center;/*水平居中*/
   height: auto;
 }
