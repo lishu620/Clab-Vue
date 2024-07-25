@@ -27,8 +27,7 @@ export default {
 }
 </script>
 
-<style>
-/* 样式可根据需要进行调整 */
+<style scoped>
 header {
     background-color: #42b983;
     color: white;
@@ -49,6 +48,5 @@ main {
 }
 
 .about {
-    margin-bottom: 40px;
+    margin-bottom: 40px
 }
-</style>
