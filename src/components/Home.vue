@@ -40,7 +40,7 @@ export default {
 
 /* 左侧列样式 */
 .left-column {
-    flex: 1;    /* 使其占据一半的宽度 */
+    flex: 0 1 auto;    /* 使其占据一半的宽度 */
     display: flex;
     align-items: center;    /*垂直对齐*/
     justify-content: center;    /*水平对齐*/
