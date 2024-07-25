@@ -38,7 +38,7 @@ export default {
     flex: 1;
     background-color: #42b983;
     color: white;
-    padding: 20px;
+    padding: 80%;
     margin-right: 20px;
 }
 
@@ -53,7 +53,7 @@ export default {
 
 .right-column {
     flex: 2;
-    padding: 20px;
+    padding: 80%;
 }
 
 .feature {
