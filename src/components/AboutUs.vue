@@ -48,11 +48,6 @@ main {
 }
 
 .about {
-<<<<<<< HEAD:src/components/AboutUS.vue
-    margin-bottom: 40px
-}
-=======
     margin-bottom: 40px;
 }
 </style>
->>>>>>> 5cdb03a444a747540a0bf579529e2edda03976cd:src/components/AboutUs.vue
