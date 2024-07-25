@@ -1,19 +1,17 @@
 {
-  "name": "clab-vue",
-  "version": "0.0.0",
-  "private": true,
-  "type": "module",
+  "name": "Clab-Vue",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "serve": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.4.29",
-    "vue-router": "^4.4.0"
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.5",
-    "vite": "^5.3.1"
+    "@vitejs/plugin-vue": "^1.0.0",
+    "vite": "^2.0.0"
   }
 }
