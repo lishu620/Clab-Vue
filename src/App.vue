@@ -6,10 +6,8 @@ import TheWelcome from './components/TheWelcome.vue'
 <template>
   <header>
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-    <h1>欢迎来到C区实验室</h1>
-    <p>我们有很好的学习环境</p>
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="C区实验室" />
     </div>
   </header>
 
