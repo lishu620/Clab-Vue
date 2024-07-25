@@ -2,9 +2,6 @@
   <div class="container">
     <div class="left-column">
       <img src="../assets/logo.svg" alt="C区实验室 Logo" class="logo" />
-      <div class="text-content">
-        <img src='/src/assets/logo.svg'>
-      </div>
     </div>
     <div class="right-column">
       <section class="feature">
@@ -50,13 +47,11 @@
   top: 20px;
   left: 20px;
   width: 80px;
-  /* 根据需要调整 logo 的大小 */
   height: auto;
 }
 
 .text-content {
   margin-top: 60px;
-  /* 确保文本不会被 logo 遮盖 */
 }
 
 .right-column {
@@ -100,9 +95,30 @@ h3 {
   margin: 0;
 }
 
-@media (min-width: 1024px) {
+/* 手机适配 */
+@media (max-width: 768px) {
   .container {
-    flex-direction: row;
+    flex-direction: column;
+  }
+
+  .left-column,
+  .right-column {
+    width: 100%;
+    box-shadow: none;
+    /* 移除阴影效果以减少小屏幕上的视觉干扰 */
+    border-radius: 0;
+    /* 移除圆角以适应小屏幕 */
+    padding: 10px;
+    /* 减小内边距 */
+  }
+
+  .logo {
+    width: 60px;
+    /* 调整 logo 大小以适应小屏幕 */
+  }
+
+  .text-content {
+    margin-top: 20px;
   }
 }
 </style>
