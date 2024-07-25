@@ -33,31 +33,21 @@ export default {
     display: flex;
     flex-direction: row;
     height: 100%;
-    /* 使容器占满整个视窗高度 */
     width: 100%;
-    /* 使容器占满整个视窗宽度 */
     margin: 0;
-    /* 去掉默认的外边距 */
     padding: 0;
-    /* 去掉默认的内边距 */
 }
 
 /* 左侧列样式 */
 .left-column {
-    flex: 1;
-    /* 使其占据一半的宽度 */
+    flex: 1;    /* 使其占据一半的宽度 */
     display: flex;
-    align-items: center;
-    /*垂直对齐*/
-    justify-content: center;
-    /*水平对齐*/
-    height: 50%;
+    align-items: center;    /*垂直对齐*/
+    justify-content: center;    /*水平对齐*/
     background-color: #42b983;
     color: white;
     padding: 40px;
-    /* 合理设置内边距 */
-    box-sizing: border-box;
-    /* 包含内边距在元素宽度内 */
+    box-sizing: border-box;     /* 包含内边距在元素宽度内 */
 }
 
 /* 右侧列样式 */
