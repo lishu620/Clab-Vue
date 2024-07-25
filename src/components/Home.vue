@@ -1,21 +1,21 @@
 <template>
-    <div>
-        <header>
-            <h1>Welcome to Our Product</h1>
-            <p>Discover the amazing features of our new product!</p>
+    <div class="container">
+        <header class="left-column">
+            <h1>C区实验室</h1>
+            <p>欢迎各位来到C区实验室</p>
         </header>
-        <main>
+        <main class="right-column">
             <section class="feature">
-                <h2>Feature 1</h2>
-                <p>Our product offers this amazing feature that you will love.</p>
+                <h2>我们是</h2>
+                <p>我们是重庆文理学院实训中心C区实验室</p>
             </section>
             <section class="feature">
-                <h2>Feature 2</h2>
-                <p>Another great feature of our product that makes it unique.</p>
+                <h2>我们的任务</h2>
+                <p>我们主要负责格致楼3楼C区机房的日常维护和教学管理工作</p>
             </section>
             <section class="feature">
-                <h2>Feature 3</h2>
-                <p>Experience the benefits of this feature and see the difference.</p>
+                <h2>我们的义务</h2>
+                <p>我们需要管理好机房的正常教学运行，保证师生正常进行教学任务</p>
             </section>
         </main>
     </div>
@@ -27,24 +27,32 @@ export default {
 }
 </script>
 
-<style>
-/* 样式保持不变 */
-header {
-    background-color: #42b983;
-    color: white;
+<style scoped>
+.container {
+    display: flex;
+    flex-direction: row;
     padding: 20px;
 }
 
-header h1 {
+.left-column {
+    flex: 1;
+    background-color: #42b983;
+    color: white;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.left-column h1 {
     margin: 0;
     font-size: 2.5em;
 }
 
-header p {
+.left-column p {
     margin: 10px 0 0;
 }
 
-main {
+.right-column {
+    flex: 2;
     padding: 20px;
 }
 

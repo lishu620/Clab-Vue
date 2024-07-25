@@ -5,13 +5,12 @@ import { router } from './router';
 <template>
   <div id="app">
     <nav>
-      <router-link to="/">Home</router-link>
-      <router-link to="/about-us">About Us</router-link>
+      <router-link to="/">首页</router-link>
+      <router-link to="/about-us">关于我们</router-link>
     </nav>
     <router-view></router-view>
     <footer>
-      <p>Contact us: info@ourproduct.com</p>
-      <p>&copy; 2024 Our Product. All rights reserved.</p>
+      <p>我们的招新QQ群:947570002</p>
     </footer>
   </div>
 </template>
@@ -54,6 +53,8 @@ footer {
   padding: 10px;
   position: fixed;
   bottom: 0;
+  left: 0;
   width: 100%;
+  box-sizing: border-box;
 }
 </style>
