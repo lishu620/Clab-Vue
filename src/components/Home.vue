@@ -53,7 +53,7 @@ export default {
 
 /* 右侧列样式 */
 .right-column {
-    flex: 1;
+    flex: 0 1 auto;
     /* 使其占据一半的宽度 */
     padding: 20px;
     /* 合理设置内边距 */
