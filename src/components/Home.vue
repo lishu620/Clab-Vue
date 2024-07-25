@@ -31,15 +31,22 @@ export default {
 .container {
     display: flex;
     flex-direction: row;
-    padding: 80%;
+    height: 100vh;
+    /* 使容器占满整个视窗高度 */
+}
+
+.left-column,
+.right-column {
+    flex: 1;
+    box-sizing: border-box;
+    /* 确保padding和边框不超出宽度 */
 }
 
 .left-column {
-    flex: 1;
     background-color: #42b983;
     color: white;
-    padding: 80%;
-    margin-right: 20px;
+    padding: 20px;
+    margin-right: 0;
 }
 
 .left-column h1 {
@@ -52,8 +59,7 @@ export default {
 }
 
 .right-column {
-    flex: 2;
-    padding: 80%;
+    padding: 20px;
 }
 
 .feature {
