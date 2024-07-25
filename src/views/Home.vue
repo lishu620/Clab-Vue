@@ -3,7 +3,6 @@
     <div class="left-column">
       <img src="../assets/logo.svg" alt="C区实验室 Logo" class="logo" />
       <div class="text-content">
-        <h1 class="green">{{ msg }}</h1>
         <img src='/src/assets/logo.svg'>
       </div>
     </div>
@@ -61,7 +60,7 @@
 }
 
 .right-column {
-  flex: 1;
+  flex: 2;
   padding: 20px;
   display: flex;
   flex-direction: column;
