@@ -42,6 +42,7 @@ export default {
 .left-column {
     flex: 0 1 auto;    /* 使其占据一半的宽度 */
     display: flex;
+    height: auto;
     align-items: center;    /*垂直对齐*/
     justify-content: center;    /*水平对齐*/
     background-color: #42b983;
