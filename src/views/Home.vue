@@ -16,6 +16,10 @@
         <h2>我们的义务</h2>
         <p>我们需要管理好机房的正常教学运行，保证师生正常进行教学任务</p>
       </section>
+      <section class="feature">
+        <h2>详细了解</h2>
+        <p>官方招新QQ群:947570002</p>
+      </section>
     </div>
   </div>
 </template>
