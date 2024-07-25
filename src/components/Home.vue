@@ -43,7 +43,7 @@ export default {
     flex: 1; /* 使其占据一半的宽度 */
     background-color: #42b983;
     color: white;
-    padding: 20px; /* 合理设置内边距 */
+    padding: 40px; /* 合理设置内边距 */
     box-sizing: border-box; /* 包含内边距在元素宽度内 */
 }
 
