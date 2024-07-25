@@ -32,14 +32,10 @@ export default {
 .container {
     display: flex;
     flex-direction: row;
-    height: 100vh;
-    /* 使容器占满整个视窗高度 */
-    width: 100vw;
-    /* 使容器占满整个视窗宽度 */
+    height: 100%;
+    width: 100%;
     margin: 0;
-    /* 去掉默认的外边距 */
     padding: 0;
-    /* 去掉默认的内边距 */
 }
 
 /* 左侧列样式 */
