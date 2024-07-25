@@ -29,6 +29,13 @@ import { router } from './router';
 nav {
   background-color: #42b983;
   padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  z-index: 1000;
 }
 
 nav a {
