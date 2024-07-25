@@ -41,6 +41,7 @@ export default {
 /* 左侧列样式 */
 .left-column {
     flex: 1; /* 使其占据一半的宽度 */
+    height: 50%;
     background-color: #42b983;
     color: white;
     padding: 40px; /* 合理设置内边距 */
