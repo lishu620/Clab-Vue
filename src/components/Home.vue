@@ -41,18 +41,17 @@ export default {
 /* 左侧列样式 */
 .left-column {
     flex: 1;
-    /* 使其占据一半的宽度 */
     background-color: #42b983;
     color: white;
+    height: 40%;
+    width: 50%;
     padding: 20px;
-    /* 合理设置内边距 */
     box-sizing: border-box;
-    /* 包含内边距在元素宽度内 */
 }
 
 /* 右侧列样式 */
 .right-column {
-    flex: 1;
+    flex: 2;
     /* 使其占据一半的宽度 */
     padding: 20px;
     /* 合理设置内边距 */
