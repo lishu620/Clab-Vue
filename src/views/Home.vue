@@ -18,6 +18,7 @@
       </section>
       <section class="feature">
         <h2>详细了解</h2>
+        <p><RouterLink to="/ImageGallery">看看学长学姐</RouterLink></p>
         <p>官方招新QQ群:947570002</p>
       </section>
     </div>

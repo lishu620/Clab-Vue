@@ -1,11 +1,9 @@
 <template>
   <header class="header">
-    <img alt="Vue logo" class="logo" src="../assets/logo.png" />
     <nav>
       <ul>
         <li><router-link to="/">首页</router-link></li>
-        <li><router-link to="/about">关于我们</router-link></li>
-        <li><router-link to="/contact">联系我们</router-link></li>
+        <li><router-link to="/ImageGallery">看看学长学姐</router-link></li>
       </ul>
     </nav>
   </header>
