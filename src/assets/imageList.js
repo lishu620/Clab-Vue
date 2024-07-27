@@ -1,0 +1,30 @@
+const imageList = [
+    require('@/assets/img/xuezhang/1 (1).jpeg'),
+    require('@/assets/img/xuezhang/1 (1).jpg'),
+    require('@/assets/img/xuezhang/1 (10).jpg'),
+    require('@/assets/img/xuezhang/1 (12).jpg'),
+    require('@/assets/img/xuezhang/1 (14).jpg'),
+    require('@/assets/img/xuezhang/1 (17).jpg'),
+    require('@/assets/img/xuezhang/1 (19).jpg'),
+    require('@/assets/img/xuezhang/1 (2).jpg'),
+    require('@/assets/img/xuezhang/1 (2).png'),
+    require('@/assets/img/xuezhang/1 (20).jpg'),
+    require('@/assets/img/xuezhang/1 (21).jpg'),
+    require('@/assets/img/xuezhang/1 (22).jpg'),
+    require('@/assets/img/xuezhang/1 (24).jpg'),
+    require('@/assets/img/xuezhang/1 (26).jpg'),
+    require('@/assets/img/xuezhang/1 (27).jpg'),
+    require('@/assets/img/xuezhang/1 (29).jpg'),
+    require('@/assets/img/xuezhang/1 (3).jpg'),
+    require('@/assets/img/xuezhang/1 (30).jpg'),
+    require('@/assets/img/xuezhang/1 (35).jpg'),
+    require('@/assets/img/xuezhang/1 (39).png'),
+    require('@/assets/img/xuezhang/1 (4).jpg'),
+    require('@/assets/img/xuezhang/1 (51).jpg'),
+    require('@/assets/img/xuezhang/1 (52).jpg'),
+    require('@/assets/img/xuezhang/1 (53).jpg'),
+    require('@/assets/img/xuezhang/1 (58).jpg'),
+    require('@/assets/img/xuezhang/1 (6).jpg')
+];
+
+export default imageList;

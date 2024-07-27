@@ -28,7 +28,7 @@ export default {
     methods: {
         async loadImages() {
             // 使用 import.meta.glob 加载所有图片
-            const imageModules = import.meta.glob('../assets/img/xuezhang/*.{png,jpg,jpeg,svg}');
+            const imageModules = import.meta.glob('../assets/img/huodong/*.{png,jpg,jpeg,svg}');
 
             // 从模块中提取图片路径
             const imagePromises = Object.values(imageModules).map((module) => module().then((mod) => mod.default));

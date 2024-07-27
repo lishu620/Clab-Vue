@@ -5,7 +5,7 @@
     </div>
     <div class="right-column">
       <section class="feature">
-        <h2>我们是</h2>
+        <h2>介绍我们</h2>
         <p>我们是重庆文理学院实训中心C区实验室</p>
       </section>
       <section class="feature">
@@ -18,7 +18,10 @@
       </section>
       <section class="feature">
         <h2>详细了解</h2>
-        <p><RouterLink to="/ImageGallery">看看学长学姐</RouterLink></p>
+        <p>
+          <RouterLink to="/ImageGallery" class="rounded-link">看看学长学姐</RouterLink>
+          <RouterLink to="/Active" class="rounded-link">我们的活动</RouterLink>
+        </p>
         <p>官方招新QQ群:947570002</p>
       </section>
     </div>
@@ -49,11 +52,15 @@
 
 .logo {
   position: absolute;
-  top: 50%; /* 垂直居中 */
-  left: 20px; /* 距离左侧边距 */
-  transform: translateY(-50%); /* 精确垂直居中 */
-  width:500px;
-  align-items: center;/*水平居中*/
+  top: 50%;
+  /* 垂直居中 */
+  left: 20px;
+  /* 距离左侧边距 */
+  transform: translateY(-50%);
+  /* 精确垂直居中 */
+  width: 525px;
+  align-items: center;
+  /*水平居中*/
   height: auto;
 }
 
@@ -100,6 +107,28 @@
 h3 {
   font-size: 1.2rem;
   margin: 0;
+}
+
+.rounded-link {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #42b983;
+  /* 背景颜色 */
+  border-radius: 12px;
+  /* 圆角 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* 阴影 */
+  transition: background-color 0.3s, transform 0.3s;
+  /* 平滑过渡效果 */
+}
+
+.rounded-link:hover {
+  background-color: #2c8b65;
+  /* 鼠标悬停时的背景颜色 */
+  transform: scale(1.05);
+  /* 鼠标悬停时的放大效果 */
 }
 
 /* 手机适配 */
