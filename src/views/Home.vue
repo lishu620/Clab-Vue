@@ -21,11 +21,14 @@
         <p>
           <RouterLink to="/ImageGallery" class="rounded-link">看看学长学姐</RouterLink>
           <RouterLink to="/Active" class="rounded-link">我们的活动</RouterLink>
+          <RouterLink to="/Part" class="rounded-link">我们的聚会</RouterLink>
         </p>
       </section>
       <section class="feature">
         <h2>加入我们</h2>
-        <p>官方招新QQ群:947570002</p>
+        <p>官方招新QQ群:
+          <a href="https://qm.qq.com/q/N5fAsw5iYm">947570002</a>
+        </p>
       </section>
     </div>
   </div>

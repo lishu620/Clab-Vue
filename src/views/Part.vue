@@ -2,7 +2,6 @@
     <div>
         <Header />
         <div class="gallery">
-            <h2 class="title">义务维护活动</h2>
             <div class="gallery-item" v-for="(image, index) in images" :key="index">
                 <img :src="image" :alt="'Image ' + (index + 1)" class="gallery-image" />
             </div>
@@ -29,7 +28,7 @@ export default {
     methods: {
         async loadImages() {
             // 使用 import.meta.glob 加载所有图片
-            const imageModules = import.meta.glob('../assets/img/huodong/*.{png,jpg,jpeg,svg}');
+            const imageModules = import.meta.glob('../assets/img/tuanjian/*.{png,jpg,jpeg,svg}');
 
             // 从模块中提取图片路径
             const imagePromises = Object.values(imageModules).map((module) => module().then((mod) => mod.default));
@@ -49,15 +48,8 @@ export default {
     justify-content: center;
 }
 
-.title {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
 .gallery-item {
-    flex: 1 0 30%;
-    /* 使每行最多显示3张图片 */
+    flex: 1 0 21%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     overflow: hidden;
@@ -69,8 +61,7 @@ export default {
 
 .gallery-image {
     width: 100%;
-    height: 100%;
-    object-fit: contain;
-    /* 确保图片完全显示在容器内 */
+    height: auto;
+    object-fit: cover;
 }
 </style>

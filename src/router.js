@@ -3,11 +3,13 @@ import Home from './views/Home.vue'
 import ImageGallery from './views/ImageGallery.vue'//引入图片网页
 import Header from './components/Header.vue'
 import Active from './views/Active.vue'
+import Part from './views/Part.vue'
 
 const routes = [
     { path: '/', component: Home },
     { path: '/ImageGallery', component: ImageGallery},
-    { path: '/Active', component: Active}
+    { path: '/Active', component: Active},
+    { path: '/Part', component: Part}
     // 可以在这里添加更多路由
 ]
 
