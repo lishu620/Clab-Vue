@@ -22,6 +22,9 @@
           <RouterLink to="/ImageGallery" class="rounded-link">看看学长学姐</RouterLink>
           <RouterLink to="/Active" class="rounded-link">我们的活动</RouterLink>
         </p>
+      </section>
+      <section class="feature">
+        <h2>加入我们</h2>
         <p>官方招新QQ群:947570002</p>
       </section>
     </div>
@@ -122,6 +125,8 @@ h3 {
   /* 阴影 */
   transition: background-color 0.3s, transform 0.3s;
   /* 平滑过渡效果 */
+  margin-right: 20px;
+  /* 调整链接间距 */
 }
 
 .rounded-link:hover {
