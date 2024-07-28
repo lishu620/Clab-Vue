@@ -27,6 +27,7 @@
       </section>
       <section class="feature">
         <h2>加入我们</h2>
+        <RouterLink to="/Join-us" class="rounded-link">详细</RouterLink>
         <p>官方招新QQ群:
           <a href="https://qm.qq.com/q/N5fAsw5iYm">947570002</a>
         </p>
