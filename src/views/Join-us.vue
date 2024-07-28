@@ -7,7 +7,7 @@
             <section class="feature">
                 <h2>联系我们</h2>
                 <div class="contact-info">
-                    <p class="qq-number">官方招新QQ群: 947570002</p>
+                    <p class="qq-number">我们是重庆文理学院实训中心C区实验室，值班室位于格致楼C302，负责管理格致楼三楼C区的机房正常运行工作，扫描下方二维码加入群聊</p>
                     <div class="image-container">
                         <img src="../assets/join-us.jpg" alt="Join Us Image" />
                     </div>
