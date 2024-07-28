@@ -22,6 +22,7 @@
           <RouterLink to="/ImageGallery" class="rounded-link">看看学长学姐</RouterLink>
           <RouterLink to="/Active" class="rounded-link">我们的活动</RouterLink>
           <RouterLink to="/Part" class="rounded-link">我们的聚会</RouterLink>
+          <RouterLink to="/Enviroment" class="rounded-link">机房</RouterLink>
         </p>
       </section>
       <section class="feature">

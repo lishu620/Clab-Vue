@@ -5,6 +5,7 @@
         <li><router-link to="/">首页</router-link></li>
         <li><router-link to="/ImageGallery">看看学长学姐</router-link></li>
         <li><router-link to="/Active">我们的活动</router-link></li>
+        <li><router-link to="/Enviroment">机房环境</router-link></li>
       </ul>
     </nav>
   </header>
